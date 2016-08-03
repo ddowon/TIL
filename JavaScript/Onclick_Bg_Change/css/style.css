@@ -1,0 +1,29 @@
+body {
+	margin: 5em;
+}
+
+.btn-group button {
+	padding: 2em 3em;
+	background: #fff;
+	color: gray;
+	font-size: 2em;
+	cursor: pointer;
+	border: 2px solid gray;
+	border-radius: 1em;
+	transition: all 0.3s;
+}
+
+.btn-group button:hover {
+	background: #eee;
+}
+
+#btn_group2 {
+	margin: 1em;
+}
+#btn_group2 button {
+	padding: 1em 2em;
+	background: #000;
+	color: #fff;
+	font-size: 1.2em;
+	border:none;
+}
