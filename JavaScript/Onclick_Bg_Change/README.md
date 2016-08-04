@@ -29,8 +29,7 @@ red_btn.onclick = function(){
   
 ---
   
-#####클릭 이벤트 발생 시, 요소 안에 있는 Text(Hex Code)를 읽어  
-`<body>`의 배경 이미지 색 변경 하기 !  
+####클릭 이벤트 발생 시, 요소 안에 있는 Text(Hex Code)를 읽어 `<body>`의 배경 이미지 색 변경 하기 !  
 
 ```html
 <div id="btn_group2" role="group">
