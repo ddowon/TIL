@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.wrap {
+			width: 80%;
+			margin: 0 auto;
+		}
+		button { 
+			padding:1rem;
+			border: none;
+			background: #fff;
+		}
+		.preview-text {
+			width: 100%;
+			height: 150px;
+			resize: none;
+			background: transparent;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="font-weight-change">
+			<button type="button">regular</button>
+		</div>
+		<div class="font-size-change">
+			<p class="font-size">px</p>
+			<button class="increase-btn" type="button">+</button>
+			<button class="decrease-btn" type="button">-</button>
+		</div>
+		<div class="bg-change">
+			<button class="white-btn" type="button">A</button>
+			<button class="gray-btn" type="button">A</button>
+		</div>
+		<div>
+			<textarea class="preview-text" name="" id="" cols="30" rows="10" placeholder="글자크기, 굵기, 그리고 배경색을 자유롭게 컨트롤해보세요"></textarea>
+		</div>
+	</div>
+	<script src="../../Resource/domhelper.js"></script>
+	<script src="js/control-text-size.js"></script>
+</body>
+</html>
