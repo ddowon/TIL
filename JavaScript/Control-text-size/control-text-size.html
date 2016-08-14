@@ -3,40 +3,51 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<style>
-		.wrap {
-			width: 80%;
-			margin: 0 auto;
-		}
-		button { 
-			padding:1rem;
-			border: none;
-			background: #fff;
-		}
-		.preview-text {
-			width: 100%;
-			height: 150px;
-			resize: none;
-			background: transparent;
-		}
-	</style>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
 	<div class="wrap">
-		<div class="font-weight-change">
-			<button type="button">regular</button>
-		</div>
-		<div class="font-size-change">
-			<p class="font-size">px</p>
-			<button class="increase-btn" type="button">+</button>
-			<button class="decrease-btn" type="button">-</button>
-		</div>
-		<div class="bg-change">
-			<button class="white-btn" type="button">A</button>
-			<button class="gray-btn" type="button">A</button>
-		</div>
-		<div>
-			<textarea class="preview-text" name="" id="" cols="30" rows="10" placeholder="글자크기, 굵기, 그리고 배경색을 자유롭게 컨트롤해보세요"></textarea>
+		<div class="position-center">
+			<div class="control-box">
+				<div class="font-weight-change">
+					<ul>
+						<li class="fontweight-thin">
+							<button type="button">Thin</button>
+						</li>
+			<!-- 					<li class="fontweight-regular">
+				<button type="button">Regular</button>
+			</li>
+			<li class="fontweight-bold">
+				<button type="button">Bold</button>
+			</li> -->
+					</ul>
+				</div>
+				<div class="font-size-change">
+					<p class="font-size" contenteditable="true">16px</p>
+					<div>
+						<button class="decrease-btn" type="button">
+							<span>글자 크기 줄이기</span>
+						</button>
+					</div>
+					<div>
+						<button class="increase-btn" type="button">
+							<span>글자 크기 키우기</span>
+						</button>
+					</div>
+				</div>
+				<div class="bg-change">
+					<button class="white-btn" type="button">
+						<span>화면 밝게 하기</span>
+					</button>
+					<button class="gray-btn" type="button">
+						<span>화면 어둡게 하기</span>
+					</button>
+				</div>
+			</div>
+			<div>
+				<textarea class="preview-text" name="" id="" cols="30" rows="10" placeholder="글자크기, 굵기, 그리고 배경색을 자유롭게 컨트롤해보세요"></textarea>
+			</div>
 		</div>
 	</div>
 	<script src="../../Resource/domhelper.js"></script>

@@ -23,9 +23,11 @@ for ( var i=0, l=bg_change_btns.length; i<l; i++) {
 	bg_btn.onclick = function() {
 		var get_class = this.getAttribute('class')
 		body.style.backgroundColor = get_class.split('-')[0];
-		// this.style.borderWidth = "10px";
+		// this.style.border = "10px solid gray";
 	}
 }
+
+
 
 //===========================================================
 
@@ -52,17 +54,20 @@ decrease_btn.onclick = function() {
 
 var change_size = 1;
 function changeFontSize() {
-	var operator = this.firstChild.nodeValue;
-	console.log(this.firstChild.nodeValue);
+	var get_class = this.getAttribute('class');
+	var operator = get_class.split('-')[0];
 
 	var current_text = parseInt(textarea.style.fontSize);
 	var _current_size;
-	if( operator == "+" ) {
+	if( operator == "increase" ) {
 		_current_text = current_text + change_size;
 	} else {
 		_current_text = current_text - change_size;
 	}
- textarea.style.fontSize = _current_text + 'px';
+	textarea.style.fontSize = _current_text + 'px';
+
+	var show_font = query('.font-size');
+	show_font.innerHTML = textarea.style.fontSize;
 }
 
 increase_btn.onclick = decrease_btn.onclick = changeFontSize
@@ -83,3 +88,5 @@ increase_btn.onclick = decrease_btn.onclick = changeFontSize
 		change_size에 -1 값이 저장되어있는 상태에서 다시 -1을 곱해주게되므로 값이 1 이 된다..!
 
 */
+
+ 
