@@ -1,0 +1,48 @@
+.line-effect > * > * {
+  position: relative;
+  border: none; }
+  .line-effect > * > *::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    right: 100%;
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid gray;
+    transition: all 0.3s;
+    z-index: -1; }
+  .line-effect > * > *:hover::before, .line-effect > * > *:focus::before {
+    top: 0%;
+    left: 0;
+    bottom: 0;
+    right: 0; }
+
+.color-effect:hover {
+  color: #b30000; }
+
+.bg-effect:hover {
+  background: #b30000; }
+
+.center-effect {
+  position: relative; }
+
+/*   nav module    */
+* {
+  box-sizing: border-box; }
+
+ul {
+  list-style: none; }
+
+a {
+  color: black;
+  text-decoration: none; }
+
+.nav {
+  clear: both; }
+
+.nav li {
+  float: left; }
+
+.nav a {
+  display: block;
+  padding: 50px; }

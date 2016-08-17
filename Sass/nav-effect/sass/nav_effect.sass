@@ -1,0 +1,83 @@
+
+// $lnb_a_padding: 20px 50px
+// $gnb_a_padding: 20px 50px
+
+$border-overflow: null
+// 사용하고자 하는 보더가 선이 아닌 면일 경우 hiddon 사용 
+
+$nav_border_bottom: 1px solid gray
+$nav_transition: all 0.3s
+
+
+$transition_position_top: null
+$transition_position_right: null
+$transition_position_bottom: null
+$transition_position_left: null
+
+$transition_top_after: null
+$transition_right_after: null
+$transition_bottom_after: null
+$transition_left_after: null
+
+
+%line-effect > *
+	position: relative
+	border: none
+	overflow: $border-overflow
+	&::before
+		content: ''
+		position: absolute
+		top: $transition_position_top
+		right: $transition_position_right
+		bottom: $transition_position_bottom
+		left: $transition_position_left
+		border-bottom: $nav_border_bottom
+		transition: $nav_transition
+		z-index: -1
+	&:hover::before, &:focus::before
+		top: $transition_top_after
+		left: $transition_right_after
+		bottom: $transition_bottom_after
+		right: $transition_left_after
+
+
+.line-effect > *
+	@extend %line-effect
+
+$color: null //Hex code
+$amount: null // %
+$color_effect: darken(#ff0000, 15%)
+// 경우에 따라 lighten, saturate, desaturate, grayscale 등 사용
+
+.color-effect
+	&:hover
+		color: $color_effect
+
+// $bg_effect: darken($color, $amount)
+@mixin bg_effect( $darken($color, $amount) )
+	&:hover
+		background: $darken( $color, $amount )
+
+
+.center-effect
+	position: relative
+	// bor
+
+/*   nav module    */
+
+*
+	box-sizing: border-box
+ul 
+	list-style: none
+a 
+	color: black
+	text-decoration: none
+.nav 
+	clear: both
+
+.nav li 
+	float: left
+
+.nav a 
+	display: block
+	padding: 50px
