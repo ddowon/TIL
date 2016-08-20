@@ -4,45 +4,30 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" href="../../Resource/fontawesome/font-awesome.min.css"> -->
 </head>
 <body>
 	<div class="wrap">
 		<div class="position-center">
 			<div class="control-box">
-				<div class="font-weight-change">
-					<ul>
-						<li class="fontweight-thin">
-							<button type="button">Thin</button>
-						</li>
-			<!-- 					<li class="fontweight-regular">
-				<button type="button">Regular</button>
-			</li>
-			<li class="fontweight-bold">
-				<button type="button">Bold</button>
-			</li> -->
-					</ul>
-				</div>
+					<select class="font-weight-change" name="weight" id="weight">
+						<option>Thin</option>
+						<option selected>Regular</option>
+						<option>Bold</option>
+					</select>
+
 				<div class="font-size-change">
-					<p class="font-size" contenteditable="true">16px</p>
+					<input class="font-size" type="text" value="16px">
 					<div>
-						<button class="decrease-btn" type="button">
-							<span>글자 크기 줄이기</span>
-						</button>
+						<button class="decrease-btn" type="button" aria-label="글자 크기 줄이기" ></button>
 					</div>
 					<div>
-						<button class="increase-btn" type="button">
-							<span>글자 크기 키우기</span>
-						</button>
+						<button class="increase-btn" type="button" aria-label="글자 크기 키우기"></button>
 					</div>
 				</div>
 				<div class="bg-change">
-					<button class="white-btn" type="button">
-						<span>화면 밝게 하기</span>
-					</button>
-					<button class="gray-btn" type="button">
-						<span>화면 어둡게 하기</span>
-					</button>
+					<button class="white-btn" type="button" aria-label="화면 밝게 하기"></button>
+					<button class="gray-btn" type="button" aria-label="화면 어둡게 하기">	</button>
 				</div>
 			</div>
 			<div>
@@ -50,7 +35,8 @@
 			</div>
 		</div>
 	</div>
-	<script src="../../Resource/domhelper.js"></script>
+	<script src="../../Resource/DOMHelper/index.js"></script>
+	<script src="../../Resource/DOMHelper/domhelper_t.js"></script>
 	<script src="js/control-text-size.js"></script>
 </body>
 </html>

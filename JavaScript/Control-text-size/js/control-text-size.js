@@ -3,6 +3,7 @@
 //===========================================================
 var bg_change_btns = query('.bg-change').children
 var body = document.body;
+var textarea = query('.preview-text');
 
 /*
 var btn_white = query('.white-btn');
@@ -15,6 +16,29 @@ btn_black.onclick = function() {
 	document.body.style.backgroundColor = "#333333";
 }
 */
+
+//font-weight
+var font_weights = query('.font-weight-change');
+
+// var font_weights.onclick = function(){ 
+// 	this.selectedIndex === 0 ? textarea.style.fontWeight = 200 : 
+// 	this.selectedIndex === 1 ? textarea.style.fontWeight = 400 : 700 ;
+
+// 	console.log(font_weights.selectedIndex);
+// };
+
+
+
+	
+	// for(var i=0, l=font_weights.length; i<l; i++){
+		
+		var font_weight = font_weights.options;
+		font_weights.click = function(){
+			this.selectedIndex === 0 ? textarea.style.fontWeight = 200 : 
+			this.selectedIndex === 1 ? textarea.style.fontWeight = 400 : 700 ;
+		};
+
+
 
 // background-color 변경 함수
 // button의 class를 가져와 classname에 적힌 color 를 body.bg 에 적용
@@ -32,7 +56,6 @@ for ( var i=0, l=bg_change_btns.length; i<l; i++) {
 //===========================================================
 
 // +,- 버튼클릭으로 폰트사이즈 변경 함수
-var textarea = query('.preview-text');
 var increase_btn = query('.increase-btn');
 var decrease_btn = query('.decrease-btn');
 
@@ -52,6 +75,13 @@ decrease_btn.onclick = function() {
 */
 
 
+var show_font = query('.font-size');
+show_font.onkeyup = show_font.onchange = function() {
+    var current_value = this.value;
+    textarea.style.fontSize = current_value;
+    console.log(textarea.style.fontSize);
+};
+
 var change_size = 1;
 function changeFontSize() {
 	var get_class = this.getAttribute('class');
@@ -64,10 +94,12 @@ function changeFontSize() {
 	} else {
 		_current_text = current_text - change_size;
 	}
-	textarea.style.fontSize = _current_text + 'px';
 
-	var show_font = query('.font-size');
-	show_font.innerHTML = textarea.style.fontSize;
+	// var cur_value = show_font.value;
+	// console.log(show_font.value);
+	
+	textarea.style.fontSize = show_font.value = _current_text + 'px';
+	console.log(show_font.value);
 }
 
 increase_btn.onclick = decrease_btn.onclick = changeFontSize
@@ -90,3 +122,4 @@ increase_btn.onclick = decrease_btn.onclick = changeFontSize
 */
 
  
+// font-weight

@@ -14,6 +14,13 @@ button {
   background: transparent;
   cursor: pointer; }
 
+input {
+  border: none;
+  font-size: 17px; }
+
+select {
+  padding-left: 1rem; }
+
 .wrap {
   position: relative;
   width: 100%;
@@ -35,8 +42,8 @@ button {
     margin: 1rem;
     border: 1px solid gray; }
 
-.font-weight-change button {
-  width: 8rem; }
+.font-weight-change {
+  width: 150px; }
 
 .font-size-change {
   display: flex;
@@ -51,12 +58,22 @@ button {
   .font-size-change div:last-child {
     order: 3; }
 
+.decrease-btn {
+  background-image: url("../images/minus_icon.svg");
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.increase-btn {
+  background-image: url("../images/plus_icon.svg");
+  background-repeat: no-repeat;
+  background-position: center center; }
+
 .bg-change {
   border: none; }
   .bg-change button {
     border: 1px solid gray;
     transition: all 0.3s; }
-    .bg-change button::after:focus {
+    .bg-change button:hover {
       content: '';
       border: 10px solid gray; }
 
