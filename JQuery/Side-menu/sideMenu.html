@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery off canvas meun button design</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.sidemenu-wrap{
+			position: relative;
+			left: -200px;
+			float:left;
+		}
+
+		.toggle-menu-btn{
+			position: absolute;
+			top: 0;
+			right: -27px;
+			padding: 5px;
+		}
+		.side-navbar{
+			width: 200px;
+			height: 100vh;
+			background: lightgray;
+		}
+	</style>
+	<link rel="stylesheet" href="../../Resource/normalize.css">
+	<link rel="stylesheet" href="../../Resource/fontawesome/font-awesome.min.css">
+	<script src="../../Resource/jquery-3.1.0.min.js"></script>
+	<script src="../../Resource/DOMHelper/index.js"></script>
+	<script src="js/sideMenu.js"></script>
+</head>
+<body>
+	<div class="page-container">
+		<div class="sidemenu-wrap">
+			<button
+				type="button" 
+				class="toggle-menu-btn"
+				aria-controls="off-canvas-menu"
+				aria-expanded="false"
+				aria-label="오픈캔버스 메뉴 펼침">
+					<span class="fa fa-bars"></span>
+			</button>
+			
+			<div class="side-navbar">
+				<h2>off canvas menu</h2>
+				<ul>
+					<li><a href="#">item01</a></li>
+					<li><a href="#">item02</a></li>
+					<li><a href="#">item03</a></li>
+					<li><a href="#">item04</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
