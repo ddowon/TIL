@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		.container{
+			position: relative;
+			height: 100vh;
+			background: lightblue;
+		}
+		button {
+			padding: 1rem;
+			background: transparent;
+			border: 1px solid black;
+		}
+		.modal {
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			display: none;
+			width: 50%;
+			padding: 5rem;
+			border: 2px dashed black;
+			text-align: center;
+			z-index: 10;
+			background: white;
+		}
+
+		.close-modal-btn{
+			position: absolute;
+			top: 0;
+			right: 0;
+			margin: 1rem;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<h1>Modal-box</h1>
+		<button class="open-modal-btn">Modal</button>
+	
+
+		<!-- modal -->
+		<div class="modal">
+			<h1>모달창</h1>
+			<p>이것은 모달창 입니다</p>
+			<button class="close-modal-btn" type="button">닫기</button>
+		</div>
+
+
+
+		<section>
+			<h2 class="header">heading2</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias natus laborum in, beatae vitae quibusdam aliquam provident repudiandae nostrum ex enim minus adipisci perspiciatis nesciunt dolorem dolorum tenetur iste! Laborum.</p>
+		</section>
+		<section>
+			<h2 class="header">heading2</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias natus laborum in, beatae vitae quibusdam aliquam provident repudiandae nostrum ex enim minus adipisci perspiciatis nesciunt dolorem dolorum tenetur iste! Laborum.</p>
+		</section>
+		<section>
+			<h2 class="header">heading2</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias natus laborum in, beatae vitae quibusdam aliquam provident repudiandae nostrum ex enim minus adipisci perspiciatis nesciunt dolorem dolorum tenetur iste! Laborum.</p>
+		</section>
+		<section>
+			<h2 class="header">heading2</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias natus laborum in, beatae vitae quibusdam aliquam provident repudiandae nostrum ex enim minus adipisci perspiciatis nesciunt dolorem dolorum tenetur iste! Laborum./p>
+		</section>
+		<section>
+			<h2 class="header">heading2</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias natus laborum in, beatae vitae quibusdam aliquam provident repudiandae nostrum ex enim minus adipisci perspiciatis nesciunt dolorem dolorum tenetur iste! Laborum.</p>
+		</section>
+		<section>
+			<h2 class="header">heading2</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias natus laborum in, beatae vitae quibusdam aliquam provident repudiandae nostrum ex enim minus adipisci perspiciatis nesciunt dolorem dolorum tenetur iste! Laborum.</p>
+		</section>
+	</div>
+	<script src="js/modal.js"></script>
+</body>
+</html>
