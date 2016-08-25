@@ -1,0 +1,17 @@
+a, .ajax-btn {
+	display: inline-block;
+	padding: 1rem 2rem;
+	text-decoration: none;
+	color: black;
+	border: 2px solid lightgray;
+}
+
+a:hover, .ajax-btn:hover {
+	background: lightgray;
+}
+
+.content, .ajax-call {
+	margin-top: 2rem;
+	padding: 2rem;
+	border: 4px solid lightblue;
+}
