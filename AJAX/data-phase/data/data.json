@@ -1,0 +1,380 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "clayton",
+        "last": "wells"
+      },
+      "location": {
+        "street": "8699 country club rd",
+        "city": "launceston",
+        "state": "tasmania",
+        "postcode": 6731
+      },
+      "email": "clayton.wells@example.com",
+      "login": {
+        "username": "orangemeercat682",
+        "password": "synergy",
+        "salt": "kSORmDjL",
+        "md5": "3794cd104a9924061cbbc0c9291f68a3",
+        "sha1": "270d63fc1fc22a3b13b0243763797538d1e01c46",
+        "sha256": "cc7094a7399571f7b82e84f80fb6315120ca2f54fe03593b4720be6291424331"
+      },
+      "dob": "1954-08-01 07:10:37",
+      "registered": "2004-02-23 03:41:28",
+      "phone": "00-9829-2750",
+      "cell": "0469-255-825",
+      "id": {
+        "name": "TFN",
+        "value": "595799173"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/92.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/92.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/92.jpg"
+      },
+      "nat": "AU"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "ms",
+        "first": "mestan",
+        "Plast": "poçan"
+      },
+      "location": {
+        "street": "5332 tunalı hilmi cd",
+        "city": "şanlıurfa",
+        "state": "ardahan",
+        "postcode": 91241
+      },
+      "email": "mestan.poçan@example.com",
+      "login": {
+        "username": "bigmeercat181",
+        "password": "sheila",
+        "salt": "EKk8pWJL",
+        "md5": "2076add514bf5ce43089185098fc159b",
+        "sha1": "7b8525729840efd4f047ba10bebb660e6ec8a5af",
+        "sha256": "fc0a9ebf39bddd60075529fac1c4c22da4b222451923536a031a81146b7d66fd"
+      },
+      "dob": "1969-06-17 11:07:11",
+      "registered": "2010-04-20 04:25:42",
+      "phone": "(743)-083-4664",
+      "cell": "(186)-415-5322",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/7.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/7.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/7.jpg"
+      },
+      "nat": "TR"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "atão",
+        "last": "lopes"
+      },
+      "location": {
+        "street": "4406 rua são joão ",
+        "city": "sete lagoas",
+        "state": "maranhão",
+        "postcode": 37575
+      },
+      "email": "atão.lopes@example.com",
+      "login": {
+        "username": "organicdog119",
+        "password": "bluebird",
+        "salt": "DkUItObM",
+        "md5": "385b62e0d28c8b8c399290ecd214bf29",
+        "sha1": "cc609b815f73334d4c502cc2f605c6eeeaa25f6c",
+        "sha256": "c4d4e7d78ea66d58cfe6198045badfe60daa9b6b8ef00a7c6b1e4f437252f621"
+      },
+      "dob": "1983-10-16 07:33:29",
+      "registered": "2012-11-23 17:24:58",
+      "phone": "(76) 0522-2276",
+      "cell": "(52) 3407-8703",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/97.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/97.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/97.jpg"
+      },
+      "nat": "BR"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "mrs",
+        "first": "viola",
+        "last": "hofmann"
+      },
+      "location": {
+        "street": "2650 lindenstraße",
+        "city": "schwerin",
+        "state": "thüringen",
+        "postcode": 43134
+      },
+      "email": "viola.hofmann@example.com",
+      "login": {
+        "username": "organicfrog643",
+        "password": "geoffrey",
+        "salt": "7dKBq99D",
+        "md5": "9218db8df59c5d74a92bbb96ea499451",
+        "sha1": "dab0a49e78ce59a84f40f886c847bc9aa913083b",
+        "sha256": "9067342207150fd17bbf6b9668b56f8412a3ed1a7ba3825c46063246fe93ce5d"
+      },
+      "dob": "1946-12-12 18:41:56",
+      "registered": "2014-08-17 10:08:56",
+      "phone": "0073-8736398",
+      "cell": "0172-8811350",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/50.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/50.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/50.jpg"
+      },
+      "nat": "DE"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "mrs",
+        "first": "antonia",
+        "last": "moser"
+      },
+      "location": {
+        "street": "6439 gartenstraße",
+        "city": "neunkirchen",
+        "state": "brandenburg",
+        "postcode": 28107
+      },
+      "email": "antonia.moser@example.com",
+      "login": {
+        "username": "lazyleopard373",
+        "password": "darkness",
+        "salt": "I1rYrg6y",
+        "md5": "65e795af788effb8811e6ec8490196ab",
+        "sha1": "0c517495a521e061a994361dbeea9b39312c3307",
+        "sha256": "a10a450ea84811387b1b7668ea67c4b20b3266878190017ed4da5354735402df"
+      },
+      "dob": "1945-05-13 20:46:29",
+      "registered": "2010-05-18 10:20:24",
+      "phone": "0130-1196364",
+      "cell": "0176-1230613",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/45.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/45.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/45.jpg"
+      },
+      "nat": "DE"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "lars",
+        "last": "friedrich"
+      },
+      "location": {
+        "street": "8100 römerstraße",
+        "city": "ingolstadt",
+        "state": "schleswig-holstein",
+        "postcode": 56935
+      },
+      "email": "lars.friedrich@example.com",
+      "login": {
+        "username": "crazyfrog347",
+        "password": "shadow",
+        "salt": "o2jIWjo6",
+        "md5": "e616d98ccb672fbf96dce9fab04f1a02",
+        "sha1": "ed05fdfd138f3ac6161df46aa7e4302815f0fab6",
+        "sha256": "c56e736b07ad0c828f6af289b9fbe54dc0fa2303cf4ffed547ab751de38dbb63"
+      },
+      "dob": "1952-03-21 07:13:38",
+      "registered": "2009-03-14 00:47:55",
+      "phone": "0696-7284794",
+      "cell": "0176-8991073",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/79.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/79.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/79.jpg"
+      },
+      "nat": "DE"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "miss",
+        "first": "hélèna",
+        "last": "hubert"
+      },
+      "location": {
+        "street": "1647 avenue joliot curie",
+        "city": "tourcoing",
+        "state": "martinique",
+        "postcode": 56236
+      },
+      "email": "hélèna.hubert@example.com",
+      "login": {
+        "username": "redbear121",
+        "password": "1230",
+        "salt": "ubABs1Hc",
+        "md5": "e4f4ec84cfbccded7bbb20c38fd32255",
+        "sha1": "5d48f6e4d57a27a4491e899875f8899921c4eb11",
+        "sha256": "90b459a5821779c5ba682c402808ff651b4c29a8dba5bf147473bd3f8983e628"
+      },
+      "dob": "1963-04-09 17:05:59",
+      "registered": "2010-10-16 18:14:50",
+      "phone": "05-73-70-87-90",
+      "cell": "06-53-89-97-95",
+      "id": {
+        "name": "INSEE",
+        "value": "263363966003 66"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/16.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/16.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/16.jpg"
+      },
+      "nat": "FR"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "paul",
+        "last": "beckmann"
+      },
+      "location": {
+        "street": "1472 brunnenstraße",
+        "city": "günzburg",
+        "state": "baden-württemberg",
+        "postcode": 65988
+      },
+      "email": "paul.beckmann@example.com",
+      "login": {
+        "username": "brownelephant209",
+        "password": "987987",
+        "salt": "n6IWKzCH",
+        "md5": "858207f8c643dcf95e571eae13cbb031",
+        "sha1": "34d42b50845e41a95904ebc27a75d746a749e4d0",
+        "sha256": "5258e0e04dc525784536e9d6078bf7f700a42163d547e9aee9cbe1d561e05e63"
+      },
+      "dob": "1945-07-19 10:41:29",
+      "registered": "2011-07-15 15:09:55",
+      "phone": "0887-4019933",
+      "cell": "0170-7117366",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/20.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/20.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/20.jpg"
+      },
+      "nat": "DE"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "esat",
+        "last": "tanrıkulu"
+      },
+      "location": {
+        "street": "5663 atatürk sk",
+        "city": "kahramanmaraş",
+        "state": "ankara",
+        "postcode": 11451
+      },
+      "email": "esat.tanrıkulu@example.com",
+      "login": {
+        "username": "ticklishbear181",
+        "password": "buddy1",
+        "salt": "zIA8ZomX",
+        "md5": "a2e47878a9a45825e85597cce27df87d",
+        "sha1": "d8c4da3c7f3da351b945fbc42c304accb0e0106d",
+        "sha256": "d73fad0f0e41242c29760b751746fe558f31b7d26a6686e1e96db960ead29710"
+      },
+      "dob": "1959-12-30 06:57:31",
+      "registered": "2011-01-23 04:02:50",
+      "phone": "(354)-094-6364",
+      "cell": "(338)-964-2033",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/96.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/96.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/96.jpg"
+      },
+      "nat": "TR"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "nathaniel",
+        "last": "walker"
+      },
+      "location": {
+        "street": "1544 te rapa road",
+        "city": "palmerston north",
+        "state": "auckland",
+        "postcode": 16704
+      },
+      "email": "nathaniel.walker@example.com",
+      "login": {
+        "username": "organickoala658",
+        "password": "lobo",
+        "salt": "uOf4FZEo",
+        "md5": "cd450aa92e207dcc3dcab7dc468243e9",
+        "sha1": "40e68f95d6a4233ffc3c646d1102c7edde3b1ccd",
+        "sha256": "d7e4d2913c8f3144fdd6945894510f3c45959882fa6d1bda5bb22d56c7377ca1"
+      },
+      "dob": "1979-03-24 18:13:57",
+      "registered": "2005-01-26 23:43:48",
+      "phone": "(085)-525-8210",
+      "cell": "(984)-492-4295",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/24.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/24.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/24.jpg"
+      },
+      "nat": "NZ"
+    }
+  ],
+  "info": {
+    "seed": "cb4a09a8c568f1a7",
+    "results": 10,
+    "page": 1,
+    "version": "1.1"
+  }
+}
