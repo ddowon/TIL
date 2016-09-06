@@ -51,7 +51,7 @@ function evenOrOdd(num) {
     return num % 2 === 0 ?  'Even' : 'Odd' ;
 }
 ```
-
+return 위치를 다시 잡으니 console 창에서 오류 없이 잘된다   
 
 조금 더 간단하게 해보자! 이건 다른사람이 푼 답!
 ```js
