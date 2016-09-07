@@ -4,7 +4,7 @@
 	function init(){
 		var $sidemenu_wrapper = $('.sidemenu-wrap');
 		 wrapper_origin_pos = $sidemenu_wrapper.css('left');
-		// var $toggle_btn = $sidemenu_wrapper.find('.toggle-menu-btn');
+		var $toggle_btn = $sidemenu_wrapper.find('.toggle-menu-btn');
 
 		console.log($toggle_btn);
 
