@@ -5,17 +5,16 @@ var bg_change_btns = query('.bg-change').children
 var body = document.body;
 var textarea = query('.preview-text');
 
-/*
-var btn_white = query('.white-btn');
-var btn_black = query('.black-btn');
+// var btn_white = query('.white-btn');
+// var btn_black = query('.black-btn');
 
-btn_white.onclick = function() {
-	document.body.style.backgroundColor = null;
-}
-btn_black.onclick = function() {
-	document.body.style.backgroundColor = "#333333";
-}
-*/
+// btn_white.onclick = function() {
+// 	document.body.style.backgroundColor = null;
+// }
+// btn_black.onclick = function() {
+// 	document.body.style.backgroundColor = "#333333";
+// }
+
 
 //font-weight
 var font_weights = query('.font-weight-change');
@@ -24,21 +23,23 @@ var font_weights = query('.font-weight-change');
 // 	this.selectedIndex === 0 ? textarea.style.fontWeight = 200 : 
 // 	this.selectedIndex === 1 ? textarea.style.fontWeight = 400 : 700 ;
 
-// 	console.log(font_weights.selectedIndex);
+// 	console.log(font_weights);
 // };
 
 
 
-	
-	// for(var i=0, l=font_weights.length; i<l; i++){
-		
-		var font_weight = font_weights.options;
-		font_weights.click = function(){
+		// var font_weight = font_weights.options;
+		function changeWeight(){
+			textarea = query('.preview-text');
+			
+			var current_weight = 
 			this.selectedIndex === 0 ? textarea.style.fontWeight = 200 : 
-			this.selectedIndex === 1 ? textarea.style.fontWeight = 400 : 700 ;
+			this.selectedIndex === 1 ? textarea.style.fontWeight = 400 : 
+			this.selectedIndex === 2 ? textarea.style.fontWeight = 700 : 400;
+			// console.log(this.selectedIndex);
 		};
 
-
+		font_weights.onchange = changeWeight;
 
 // background-color 변경 함수
 // button의 class를 가져와 classname에 적힌 color 를 body.bg 에 적용
@@ -120,6 +121,3 @@ increase_btn.onclick = decrease_btn.onclick = changeFontSize
 		change_size에 -1 값이 저장되어있는 상태에서 다시 -1을 곱해주게되므로 값이 1 이 된다..!
 
 */
-
- 
-// font-weight

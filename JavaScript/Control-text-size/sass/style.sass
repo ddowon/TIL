@@ -9,12 +9,11 @@ ul
 button
 	width: 50px
 	height: 50px
-	text-indent: -9999px 
 	border: none
 	background: transparent
 	cursor: pointer
-	// &:hover
-	// 	background: lightgray
+	vertical-align: top
+
 input
 	border: none
 	font-size: 17px
@@ -22,9 +21,8 @@ select
 	padding-left: 1rem
 .wrap
 	position: relative
-	width: 100%
 	height: 100vh
-	margin: 0 auto
+
 
 .position-center
 	position: absolute
@@ -39,7 +37,7 @@ select
 	justify-content: center
 	&>*
 		margin: 1rem
-		border: 1px solid gray
+		border: 2px solid lightgray
 
 .font-weight-change
 	width: 150px
@@ -54,9 +52,9 @@ select
 		text-align: center
 	div:first-child
 		order: 1
-
 	div:last-child
 		order: 3
+		
 .decrease-btn
 	background-image: url('../images/minus_icon.svg')
 	background-repeat: no-repeat
@@ -69,11 +67,10 @@ select
 .bg-change
 	border: none
 	button
-		border: 1px solid gray
+		border: 2px solid lightgray
 		transition: all 0.3s 
 		&:hover
-			content: ''
-			border: 10px solid gray
+			border: 10px solid lightgray
 
 
 .preview-text
@@ -82,4 +79,4 @@ select
 	height: 200px
 	resize: none
 	background: transparent
-	border: 1px dashed gray
+	border: 4px dashed lightgray
