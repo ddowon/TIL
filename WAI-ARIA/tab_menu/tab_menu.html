@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tab UI</title>
+	<link rel="stylesheet" href="tab_menu.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="tab_menu.js"></script>
+</head>
+<body>
+	<div class="tab-interface">
+		<ul class="tab-list" role="tablist">
+			<li id="tab1" role="tab" aria-controls="section1" aria-selected="true" tabindex="0">HTML</li>
+			<li id="tab2" role="tab" aria-controls="section2" aria-selected="true" tabindex="0">CSS</li>
+			<li id="tab3" role="tab" aria-controls="section3" aria-selected="true" tabindex="0">Javascript</li>
+		</ul>
+
+		<div class="tab-contents">
+			<section id="section1" role="tabpanel" aria-labelledby="tab1">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, ipsum!</p>
+				<a href="#">상세보기</a>
+			</section>
+			<section id="section2" class="unvisual" role="tabpanel" aria-labelledby="tab2">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, amet.</p>
+				<a href="#">상세보기</a>
+			</section>
+			<section id="section3" class="unvisual" role="tabpanel" aria-labelledby="tab3">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, nostrum.</p>
+				<a href="#">상세보기</a>
+			</section>
+		</div>
+	</div>
+</body>
+</html>
